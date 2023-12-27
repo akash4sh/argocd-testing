@@ -1,9 +1,9 @@
 vault-cred:
-  image:
-    repository: ghcr.io/intelops/vault-cred
-    pullPolicy: Always
-    # Overrides the image tag whose default is the chart appVersion.
-    tag: "latest"
+  image: ghcr.io/intelops/vault-cred:latest
+    # repository: ghcr.io/intelops/vault-cred
+    # pullPolicy: Always
+    # # Overrides the image tag whose default is the chart appVersion.
+    # tag: "latest"
   vault:
     vaultAddress: http://vault:8200
     vaultNodeAddresses: "http://vault-0:8200,http://vault-1:8200,http://vault-2:8200"
