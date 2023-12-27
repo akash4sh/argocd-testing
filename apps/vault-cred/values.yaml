@@ -1,5 +1,5 @@
 vault-cred:
-  image: ghcr.io/intelops/vault-cred:latest
+  image: ghcr.io/intelops/vault-cred:pr-65
     # repository: ghcr.io/intelops/vault-cred
     # pullPolicy: Always
     # # Overrides the image tag whose default is the chart appVersion.
